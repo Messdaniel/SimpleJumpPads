@@ -1,0 +1,13 @@
+jumppads: #Dont remove or it will break everything
+  '1': #The name of the jumppad
+     loc: #The cords for the jumppad
+       world: "world" #The name of the world
+       x: 0
+       y: 0
+       z: 0
+     material: "LIGHT_WEIGHTED_PRESSURE_PLATE" #The material for the jumppad
+     power: 1.5 #The power of the jumppad
+     angel: 0 #The height of the launch. This is the same as pitch from the F3 screen
+     direction: 0 #The direction of the launch. This is the same as yaw from the F3 screen
+     type: "vector" #What jumppad type it is
+     #It can be 'Vector' - It will use vector to lauch the player or 'Faling entity' - it will create a more smooth launch using falling entitys

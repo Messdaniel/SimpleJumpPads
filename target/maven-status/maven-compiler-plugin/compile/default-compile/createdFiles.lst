@@ -1,0 +1,17 @@
+me\messdaniel\simplejumppads\jumppad\JumpPadDirection.class
+me\messdaniel\simplejumppads\listener\EntityBlockEvent.class
+me\messdaniel\simplejumppads\jumppad\JumpPad.class
+me\messdaniel\simplejumppads\JumpPadManager.class
+me\messdaniel\simplejumppads\utils\OtherUtils.class
+me\messdaniel\simplejumppads\jumppad\JumpPad$2.class
+me\messdaniel\simplejumppads\JumpPadManager$1.class
+me\messdaniel\simplejumppads\playerdata\PlayerData.class
+me\messdaniel\simplejumppads\jumppad\JumpPad$1.class
+me\messdaniel\simplejumppads\utils\MessagesUtils.class
+me\messdaniel\simplejumppads\config\ConfigValues.class
+me\messdaniel\simplejumppads\jumppad\JumpPadType.class
+me\messdaniel\simplejumppads\utils\ColorUtils.class
+me\messdaniel\simplejumppads\commands\MainCommand.class
+me\messdaniel\simplejumppads\listener\PlayerMoveEvent.class
+me\messdaniel\simplejumppads\SimpleJumpPads.class
+me\messdaniel\simplejumppads\utils\OtherUtils$1.class

@@ -1,0 +1,39 @@
+prefix: "§7[§fSimple§aJumpPads§7]"
+
+# Distance Falling Entity:
+# - When the jumppad is type Falling entity and the distance between the falling entity and the player is greater or equal, the player will get teleported to the falling entity
+distance-falling-entity: 10
+
+# Distance end location:
+# - When the lauch is over and the player gets lancuhed to far away from the end location the player will get teleported back
+distance-end-location: 10
+
+# Remove velocity at launch:
+# - If the velocity that the player had should be removed on launch
+remove-velocity-at-launch: true
+
+# Gamemodes:
+# - If the launchpads should work for the different gamemodes the player is in
+gamemodes:
+  survival: true
+  adventure: true
+  creative: true
+  spectator: true
+
+messages: #Any message you dont want you can leave empty it will not send the message then
+  no-player-online: "{prefix} §cCould not find a player online with the name {name}" #When the player gives a wrong name using /powers give or /powers take
+  only-player-command: "{prefix} §cThis command can only be used by players in game" #When the console is trying to use the /powers command
+  dont-have-perms: "{prefix} §cYou don't have required permission to use this command!" #When the player don't have the needed perm to use the command  only-player-command: "This command can only be used by players in game" #When the console is trying to use the /powers command
+  reload-successful: "{prefix} §aSuccessfully reloaded the plugin" #When the plugin has been successfully reloaded
+  reload-not-successful: "{prefix} §cWarings while reloading the plugin, look in console for reason"  #When the plugin has not been successfully reloaded
+  command-usage: "{prefix} §c/simplejumppads <Reload,Info,List,Create,Delete,Help,Set,Teleport>" #Command usage been wrong
+  invalid-direction: "{prefix} §cInvalid direction given must be either <up, down, north, east, south, west or facing>" #When a wrong direction was given
+  invalid-type: "{prefix} §cInvalid direction given must be either <vector, fallingentity>" #When a wrong type was given
+  no-jumppad-found: "{prefix} §cThe targeted block is not a JumpPad" #When a trying to get the jumppad the player is looking at
+  invalid-number-format: "{prefix} §cInvalid number format" #When a invalid number has been given in a command
+  updated-jumppad: "{prefix} §aJumpPad {name} has been updated" #When something about a jumppad has been changed
+  invalid-material: "{prefix} §cInvalid material given" #When a wrong material was given
+  invalid-jumppad: "{prefix} §cCould not find a JumpPad with the name {name}" #When a wrong jumppad was given in a command
+  teleport-successful: "{prefix} §aSuccessfully teleported to JumpPad {name}" #When a teleport to jumppad was successful
+  teleport-not-successful: "{prefix} §cCould not teleported to JumpPad {name}" #When a teleport to jumppad was not successful
+  jumppad-created: "{prefix} §aSuccessfully created a new JumpPad with the name {name}" #When a creating a new JumpPad

@@ -1,0 +1,13 @@
+name: SimpleJumpPads
+version: 1.0
+main: me.messdaniel.simplejumppads.SimpleJumpPads
+api-version: 1.19
+authors: [Messdaniel]
+description: Create JumpPads
+
+commands:
+  simplejumppads:
+    description: Main command for plugin "SimpleJumpPads"
+    permission: simplejumppads.command
+    aliases:
+      - sjp
